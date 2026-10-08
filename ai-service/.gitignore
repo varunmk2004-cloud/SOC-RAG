@@ -1,0 +1,187 @@
+# ==========================================
+# GENERAL
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.log
+*.tmp
+*.temp
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# NODE.JS / REACT
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React / Vite
+frontend/dist/
+frontend/.vite/
+
+# Build output
+dist/
+build/
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# AI / MACHINE LEARNING
+# ==========================================
+
+# Trained ML models
+*.pkl
+*.joblib
+*.pickle
+
+# Model checkpoints
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+
+# Hugging Face / Transformers cache
+.cache/
+huggingface/
+transformers_cache/
+
+# ==========================================
+# CHROMADB
+# ==========================================
+
+# Local ChromaDB storage
+chroma_data/
+chroma_db/
+.chroma/
+
+# ==========================================
+# DATASETS
+# ==========================================
+
+# Raw datasets can be large
+datasets/raw/*
+datasets/processed/*
+
+# Keep README files
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+
+# CSV / data files
+*.csv
+*.parquet
+*.feather
+
+# ==========================================
+# UPLOADED FILES
+# ==========================================
+
+uploads/
+uploaded_files/
+temp_uploads/
+
+# Documents that may contain sensitive information
+*.pdf
+*.doc
+*.docx
+*.xlsx
+
+# ==========================================
+# SECURITY / SECRETS
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+secrets/
+credentials/
+service-account*.json
+
+# ==========================================
+# DATABASE
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# MongoDB local files
+mongodb_data/
+
+# ==========================================
+# TEST / COVERAGE
+# ==========================================
+
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# ==========================================
+# OS FILES
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# DOCKER
+# ==========================================
+
+docker-compose.override.yml
+
+# ==========================================
+# LOCAL CONFIG
+# ==========================================
+
+*.local
+config.local.*
+package.jason
+node_modules
